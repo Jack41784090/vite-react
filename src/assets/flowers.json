@@ -1,0 +1,27 @@
+{
+    "Rose": {
+      "name": "Rose",
+      "color": "Red",
+      "symbolism": "Love and passion",
+      "origin": "Asia"
+    },
+    "Tulip": {
+      "name": "Tulip",
+      "color": "Various colors",
+      "symbolism": "Love, elegance, and grace",
+      "origin": "Central Asia and Turkey"
+    },
+    "Sunflower": {
+      "name": "Sunflower",
+      "color": "Yellow",
+      "symbolism": "Adoration, loyalty, and longevity",
+      "origin": "North and Central America"
+    },
+    "Lily": {
+      "name": "Lily",
+      "color": "White",
+      "symbolism": "Purity and virtue",
+      "origin": "Europe, North America, and Asia"
+    }
+  }
+  

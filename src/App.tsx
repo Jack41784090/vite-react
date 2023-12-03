@@ -1,25 +1,31 @@
 import Dropdown from './Dropdown';
-import reactLogo from './assets/react.svg';
+import bundles from './assets/bundles.json';
+import flowers from './assets/flowers.json';
 import './css/App.css';
 
-function App() {
+// interface Flower {
+// 	name: string;
+// 	color: string;
+// 	symbolism: string;
+// 	origin: string;
+// }
+// interface DropDownProps {
+// 	options: { [key: string]: Flower };
+// }
 
+function App() {
 	return (
 		<>
-			<div>
-				<a href="https://react.dev" target="_blank">
-					<img src={reactLogo} className="logo react" alt="React logo" />
-				</a>
-			</div>
-			<h1>Vite + React</h1>
-			<div className="card">
-				<Dropdown options={['one', 'two', 'three']}></Dropdown>
-			</div>
-			<p className="read-the-docs">
-				Click on the Vite and React logos to learn more
-			</p>
+			{/* <Router>
+				<NavigationBar />
+			</Router> */}
+			
+			<body>
+				<Dropdown options={Object.values(flowers).map(f => f.name)}></Dropdown>
+				<Dropdown options={Object.values(bundles).map(b => b.name)}></Dropdown>
+			</body>
 		</>
-	)
+	);
 }
 
 export default App

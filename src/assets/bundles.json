@@ -1,0 +1,35 @@
+{
+    "Romantic Bouquet": {
+      "name": "Romantic Bouquet",
+      "flowers": [
+        "Rose",
+        "Tulip",
+        "Lily"
+      ]
+    },
+    "Bright Mix": {
+      "name": "Bright Mix",
+      "flowers": [
+        "Sunflower",
+        "Tulip",
+        "Daisy"
+      ]
+    },
+    "Elegant Arrangement": {
+      "name": "Elegant Arrangement",
+      "flowers": [
+        "Lily",
+        "Tulip",
+        "Orchid"
+      ]
+    },
+    "Spring Delight": {
+      "name": "Spring Delight",
+      "flowers": [
+        "Tulip",
+        "Daffodil",
+        "Hyacinth"
+      ]
+    }
+  }
+  
